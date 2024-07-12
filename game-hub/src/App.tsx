@@ -5,7 +5,7 @@ import GameGrid from './components/GameGrid';
 import GenreList from './components/GenreList';
 import { Genre } from './hooks/useGenre';
 export default function App() {
-  const [selectedGenre, setSelectedGenre]=useState<Genre|null>(null)
+  const [selectedGenre, setSelectedGenre]=useState<Genre | null>(null)
   return (
     <Grid
       templateAreas={{
